@@ -38,16 +38,18 @@ article {
     background-color:rgba(255, 255, 255, 0.5);
     color: black;
     max-width: 100%;
+    min-width: 50%;
     margin-left: 0px;
     margin-right: 0px;
     border-left: 1px solid gray;
     padding: 1em;
-    overflow: hidden;
+    overflow: visible;
 }
 
 Body {
     background-image: url("http://disccrate.com/wp-content/uploads/2015/05/basket_sky_small.jpg");
+    min-height: 960px;
     background-size: cover;
+    background-position: center bottom;
     background-repeat: no-repeat;
-    
     }
